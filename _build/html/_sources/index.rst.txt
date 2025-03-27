@@ -9,6 +9,10 @@ Welcome to the WhizniumDBE Reference
 .. toctree::
    :maxdepth: 2
 
+   oview/index
+
+   spot/index
+
    mtp/index
 
    dbstr/index
