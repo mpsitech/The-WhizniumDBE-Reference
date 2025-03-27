@@ -11,4 +11,5 @@ Module templates
    probe/index
    adv/index
    driver/index
+   vendor/index
    mcu/index
