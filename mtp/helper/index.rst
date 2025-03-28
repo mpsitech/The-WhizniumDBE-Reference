@@ -10,4 +10,4 @@ Helpers
    neo random number generator (neotrng_v1_0) <./neotrng_v1_0.md>
    time-out counter (timeout_v1_0) <./timeout_v1_0.md>
    version identification (ident_Easy_v1_0) <./ident_Easy_v1_0.md>
-   10 kHz clock source (tkclksrc_Easy_v1_0) </tkclksrc_Easy_v1_0.md>
+   10 kHz clock source (tkclksrc_Easy_v1_0) <./tkclksrc_Easy_v1_0.md>

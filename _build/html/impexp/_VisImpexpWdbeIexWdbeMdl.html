@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html5" lang="en">
+<html class="writer-html5" lang="en" data-content_root="../">
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -13,9 +13,9 @@
   
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js?v=b3ba4146"></script>
-      <script src="../_static/doctools.js?v=888ff710"></script>
-      <script src="../_static/sphinx_highlight.js?v=4825356b"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -43,35 +43,74 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../oview/index.html">Overview</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="../oview/index.html">Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../oview/scope.html">Scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../oview/modbased.html">Model-based description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../oview/iterat.html">Source code tree iteration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../oview/devworkfl.html">Development workflow</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../spot/index.html">Functionality spotlight</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="../spot/index.html">Functionality spotlight</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../spot/mtp.html">Extensible module templates (IP blocks)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../spot/hostfpga.html">Interface-agnostic host-FPGA protocol</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../spot/dsnprobe.html">Live design probing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../spot/vendindep.html">Vendor independence</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../mtp/index.html">Module templates</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../mtp/arch/index.html">Architectural features</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="../mtp/arch/index.html">Architectural features</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/arch/top_v1_0.html">top module (top_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/arch/hostif_Easy_v1_0.html">host interface (hostif_Easy_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/arch/aximmcohostif_Easy_v1_0.html">memory-mapped AXI co-host interface (aximmcohostif_Easy_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/arch/cohostif_Easy_v1_0.html">co-host interface (cohostif_Easy_v1_0)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../mtp/iface/index.html">Simple interfaces</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="../mtp/iface/index.html">Simple interfaces</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/iface/axislave_v1_0.html">AXI slave (axislave_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/iface/spislave_v2_0.html">SPI slave (spislave_v2_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/iface/uartrx_v2_0.html">UART receiver (uartrx_v2_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/iface/uarttx_v2_0.html">UART transmitter (uarttx_v2_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/iface/gpio_Easy_v1_0.html">GPIO controller (gpio_Easy_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/iface/i2c_Easy_v1_0.html">I2C master (i2c_Easy_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/iface/uart_Easy_v1_0.html">UART controller (uart_Easy_v1_0)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../mtp/helper/index.html">Helpers</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="../mtp/helper/index.html">Helpers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/helper/bcdfreq_v1_0.html">BCD frequency generator (bcdfreq_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/helper/crcspec_v3_0.html">CRC calculator (crcspec_v3_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/helper/debounce_v1_0.html">de-bouncer (debounce_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/helper/neotrng_v1_0.html">neo random number generator (neotrng_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/helper/timeout_v1_0.html">time-out counter (timeout_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/helper/ident_Easy_v1_0.html">version identification (ident_Easy_v1_0)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../mtp/axis/index.html">AXI stream helpers</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="../mtp/axis/index.html">AXI stream helpers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/axis/axisfifo_v1_0.html">AXI stream FIFO (axisfifo_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/axis/sprsaxisfwd_v1_0.html">sparse AXI stream forwarder (sprsaxisfwd_v1_0)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../mtp/probe/index.html">Design probing</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="../mtp/probe/index.html">Design probing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/probe/fsmprobe_Easy_v1_0.html">FSM probe (fsmprobe_Easy_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/probe/fsmtrack_Easy_v1_0.html">FSM state tracker (fsmtrack_Easy_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/probe/gptrack_Easy_v1_0.html">General-purpose signal tracker (gptrack_Easy_v1_0)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../mtp/adv/index.html">Advanced functionality</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="../mtp/adv/index.html">Advanced functionality</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/adv/mipirx_v1_0.html">MIPI receiver (mipirx_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/adv/pcie_v1_0.html">PCI express endpoint (pcie_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/adv/ddrmux_Easy_v1_0.html">DDR memory multiplexer (ddrmux_Easy_v1_0)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../mtp/driver/index.html">Device drivers</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="../mtp/driver/index.html">Device drivers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/driver/oled128x32_v1_0.html">128x32 OLED display (oled128x32_v1_0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/driver/rgbled_v1_0.html">RGB LED (rgbled_v1_0)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../mtp/vendor/index.html">Vendor IP wrappers</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="../mtp/vendor/index.html">Vendor IP wrappers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/vendor/efnx.html">Efinix</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/vendor/lttc.html">Lattice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/vendor/mchp.html">Microchip</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mtp/vendor/xlnx.html">Xilinx</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../mtp/mcu/index.html">MCU-related</a><ul class="simple">
@@ -126,7 +165,7 @@
            <div itemprop="articleBody">
              
   <section id="modular-structure">
-<h1>Modular structure<a class="headerlink" href="#modular-structure" title="Permalink to this heading"></a></h1>
+<h1>Modular structure<a class="headerlink" href="#modular-structure" title="Link to this heading"></a></h1>
 <iframe src="./VisImpexpWdbeIexWdbeMdl.html" width="1600" height="1280" frameborder="0" scrolling="no"></iframe>
 </section>
 

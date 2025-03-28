@@ -6,5 +6,5 @@ Vendor IP wrappers
 
    Efinix <./efnx.md>
    Lattice <./lttc.md>
-	 Microchip <./mchp.md>
+   Microchip <./mchp.md>
    Xilinx <./xlnx.md>
