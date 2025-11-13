@@ -23,6 +23,6 @@ Welcome to the WhizniumDBE Reference
 Release
 =======
 
-This documentation corresponds to WhizniumDBE version 1.1.44, part of the 2025.1 Whiznium release.
+This documentation corresponds to WhizniumDBE version 1.1.49, part of the 2025.2 Whiznium release.
 
-Last update: March 23, 2025.
+Last update: November 13, 2025.
