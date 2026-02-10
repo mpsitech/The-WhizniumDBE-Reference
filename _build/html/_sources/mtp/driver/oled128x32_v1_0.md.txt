@@ -1,3 +1,35 @@
 128x32 OLED display (oled128x32_v1_0)
 ===
 
+**Description**: bitmap/char driver for SSD1306 OLED display
+
+### Generics
+
+| Identifier | Type | Width | Default | Description |
+|---|---|---|---|---|
+| fMclk | nat |  | 50000 | in kHz |
+| textNotBitmap | sl | 1 | 0 | bitmap (monochrome) vs. 4x20 characters |
+| numNotChar | sl | 1 | 0 | alphanumeric vs. numeric |
+| binNotHex | sl | 1 | 0 | x0123 4567 89AB CDEF vs. B1010 01010 1010 0101 |
+| Tfrm | nat |  | 100 | in tkclk clocks |
+
+
+### Ports
+
+| Identifier | Direction | Type | Width | Comment |
+|---|---|---|---|---|
+| reset | in | sl | 1 |  |
+| mclk | in | sl | 1 |  |
+| tkclk | in | sl | 1 |  |
+| run | in | sl | 1 |  |
+| bitmap | in | bitmap32x128_t | 1 |  |
+| char | in | char4x20_t | 1 |  |
+| hex | in | hex4x16_t | 1 |  |
+| bin | in | bin4x16_t | 1 |  |
+| vdd | out | sl | 1 |  |
+| vbat | out | sl | 1 |  |
+| nres | out | sl | 1 |  |
+| dNotC | out | sl | 1 |  |
+| sclk | out | sl | 1 |  |
+| mosi | out | sl | 1 |  |
+
