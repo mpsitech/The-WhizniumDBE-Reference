@@ -11,8 +11,6 @@ Welcome to the WhizniumDBE Reference
 
    oview/index
 
-   spot/index
-
    mtp/index
 
    dbstr/index
@@ -23,6 +21,6 @@ Welcome to the WhizniumDBE Reference
 Release
 =======
 
-This documentation corresponds to WhizniumDBE version 1.1.49, part of the 2025.2 Whiznium release.
+This documentation corresponds to WhizniumDBE version 1.1.51, part of the 2026.1 Whiznium release.
 
-Last update: November 13, 2025.
+Last update: February 10, 2026.
